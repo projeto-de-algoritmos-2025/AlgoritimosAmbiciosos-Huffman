@@ -14,6 +14,8 @@
 
 ## 📋 Sobre o Projeto
 
+[Deploy](https://compressor-huffman.vercel.app/)
+
 O **HuffmanCompressor** é uma aplicação web interativa que demonstra a compressão e descompressão de textos utilizando o algoritmo de Huffman.  
 A plataforma permite ao usuário:
 
