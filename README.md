@@ -27,7 +27,7 @@ A plataforma permite ao usuário:
 Ideal para estudantes, professores e entusiastas de algoritmos, a ferramenta facilita o entendimento prático de compressão sem perda de dados.
 
 ## Apresentação
-- [Vídeo 1 – Visão Geral da Aplicação](#)
+- [Vídeo 1 – Visão Geral da Aplicação](https://youtu.be/UvftSBDhxAM)
 
 ### 🎯 Funcionalidades
 
