@@ -76,7 +76,6 @@ export default function HuffmanCompressorApp() {
         const content = e.target?.result as string
 
         if (file.name.endsWith(".huff")) {
-          // Arquivo comprimido
           const data = JSON.parse(content)
           setCompressedData({
             compressed: data.compressed,
@@ -86,7 +85,6 @@ export default function HuffmanCompressorApp() {
             compressionRatio: ((data.originalSize - data.compressedSize) / data.originalSize) * 100,
           })
         } else {
-          // Arquivo de texto normal
           setInputText(content)
         }
       } catch (error) {
@@ -101,7 +99,6 @@ export default function HuffmanCompressorApp() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
       <div className="max-w-6xl mx-auto space-y-6">
-        {/* Header */}
         <div className="text-center space-y-2">
           <h1 className="text-4xl font-bold text-gray-900 flex items-center justify-center gap-2">
             <Zap className="h-8 w-8 text-blue-600" />
@@ -110,7 +107,6 @@ export default function HuffmanCompressorApp() {
           <p className="text-gray-600 text-lg">Comprima e descomprima textos usando o algoritmo de Huffman</p>
         </div>
 
-        {/* Statistics Card */}
         {compressedData && (
           <Card className="border-2 border-blue-200 bg-blue-50">
             <CardHeader>
@@ -270,7 +266,6 @@ export default function HuffmanCompressorApp() {
           </TabsContent>
         </Tabs>
 
-        {/* Footer */}
         <div className="text-center text-gray-500 text-sm">
           <p>Algoritmo de Huffman - Compressão sem perda de dados</p>
         </div>
